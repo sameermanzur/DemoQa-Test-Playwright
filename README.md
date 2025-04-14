@@ -9,18 +9,6 @@
 # Installation 
 `npm install` 
 
-# project-root/
-│
-├── tests/               # Test specs
-│   └── formSubmission.spec.ts
-├── pages/               # Page Object Models
-│   └── PracticeFormPage.ts
-├── utils/               # Reusable utilities
-│   └── formData.ts
-├── playwright.config.ts # Configuration file
-├── package.json         # Project metadata & scripts
-└── README.md
-
 # Purpose of the Framework 
 The goal of the framework is to automate UI testing for the DemoQA Website using the Playwright test tool. Specifically, this project tests the Text Box form, simulating real user actions like navigating the site, entering the data, clicking submit, and verifying outpiut. 
 I adopted the Page Object Model (POM)- design pattern to keep my framework maintainable, reusable and scalable. 
